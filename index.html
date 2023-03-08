@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge"
+    >
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0"
+    >
+    <script src="https://kit.fontawesome.com/002afb9e14.js"
+            crossorigin="anonymous"></script>
+    <title>Agmuladlai</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+<body class="bg-white">
+
+<!-- Announcement Tab -->
+<div class="container-fluid px-0 text-center bg-danger text-white py-2">
+    <a href="#" class="link-light text-decoration-none">Announcement goes here!</a>
+</div>
+<!-- Navigation bar -->
+<div class="d-flex row align-items-center container-fluid px-0 mx-0 shadow py-1 sticky-top bg-white">
+    <div class="col-lg-1 col-sm-12 text-center py-sm-2 pb-md-0 pb-lg-2">
+        <a href="#"><img src="https://via.placeholder.com/50?text=Logo" alt="..."></a>
+    </div>
+    <div class="col-sm-10 col-md-12 col-lg-9 align-self-center my-1">
+        <div class="input-group shadow">
+            <input class="form-control" type="search" placeholder="What are you looking for?">
+            <button class="input-group-text" style="background-color: #FF8989"><i class="fa fa-search text-white" aria-hidden="true"></i></button>
+        </div>
+    </div>
+    <div class="row col-lg-2 text-center" id="logcart">
+        <div class="col-lg">
+            <i class="fa fa-user fa-lg me-2" aria-hidden="true"></i>
+            <a href="login.html" class="text-black text-decoration-none">Login</a>
+        </div>
+        <div class="col-lg">
+            <i class="fa fa-shopping-cart fa-lg me-2" aria-hidden="true"></i><span class="badge"></span>
+            <a href="#" class="text-black text-decoration-none">My Cart</a>
+        </div>
+    </div>
+</div>
+<!-- Content -->
+<div class="col container-fluid px-0">
+    <!-- Carousel -->
+    <div class="container-fluid h-100">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner w-100">
+                <div class="carousel-item active">
+                    <div class="container-fluid text-center">
+                        <img src="https://via.placeholder.com/1920x600?text=Slide 1" class="img-fluid" alt="...">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container-fluid text-center">
+                        <img src="https://via.placeholder.com/1920x600?text=Slide 2" class="img-fluid" alt="...">
+                    </div>
+                </div>
+                <div class="carousel-item text-center">
+                    <div class="container-fluid">
+                        <img src="https://via.placeholder.com/1920x600?text=Slide 3" class="img-fluid" alt="...">
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- How to Pay Process -->
+    <div class="card mx-3 my-2">
+        <div class="card-header bg-light">
+            <h2 class="text-center text-black-50 fw-bolder">
+                HOW TO PAY
+            </h2>
+            <h4 class="text-center text-black-50 fw-bold pb-3 my-0">
+                STEP BY STEP PROCESS
+            </h4>
+            <ul class="list-group list-group-flush pb-3 text-center text-black-50">
+                <li class="list-group-item rounded-pill">
+                    Go to my cart.
+                </li>
+                <li class="list-group-item rounded-pill">
+                    Select the product you want to check out.
+                </li>
+                <li class="list-group-item rounded-pill">
+                    After checking the product/s your want to purchase, go to the payment method.
+                </li>
+                <li class="list-group-item rounded-pill">
+                    Select what kind of payment you prefer.
+                </li>
+                <li class="list-group-item rounded-pill">
+                    It can be GCash, credit card or cash on delivery.
+                </li>
+                <li class="list-group-item rounded-pill">
+                    Now you’re all set up to purchase our product.
+                </li>
+            </ul>
+        </div>
+
+
+    </div>
+
+    <div class="d-flex justify-content-center container-fluid bg-light p-3">
+        <div class="col-lg-2 col-sm-4">
+            <div class="card-body text-center">
+                <i class="fa-solid fa-truck-fast fa-xl" style="color: lightcoral"></i>
+                <h5 class="pt-2" style="font-size: clamp(1rem, 0.375rem + 2vw, 1.5rem);">
+                    We ship worldwide
+                </h5>
+                <p class="card-text" style="font-size: 2vh">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+        </div>
+        <div class="col-lg-2 col-sm-4">
+            <div class="card-body text-center">
+                <i class="fa-solid fa-gift fa-xl" style="color: lightcoral"></i>
+                <h5 class="card-title pt-2" style="font-size: clamp(1rem, 0.375rem + 2vw, 1.5rem);">
+                    Don't miss out
+                </h5>
+                <p class="card-text" style="font-size: 2vh">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+                </p>
+            </div>
+        </div>
+        <div class="col-lg-2 col-sm-4">
+            <div class="card-body text-center">
+                <i class="fa-solid fa-user fa-xl" style="color: lightcoral"></i>
+                <h5 class="card-title pt-2" style="font-size: clamp(1rem, 0.375rem + 2vw, 1.5rem);">
+                    Create an account
+                </h5>
+                <p class="card-text" style="font-size: 2vh">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center container-fluid row py-3" style="background-color: #FF8989">
+        <div class="d-flex justify-content-center align-items-center p-2">
+            <div class="col-6">
+                <h5 class="text-center text-white">
+                    What is agmuladlai?
+                </h5>
+                <p class="text-start text-white ps-5">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus metus aliquam eleifend mi in. Augue interdum velit euismod in pellentesque. Et ligula ullamcorper malesuada proin libero. Tempor nec feugiat nisl pretium fusce id. Semper risus in hendrerit gravida rutrum quisque. Tortor at auctor urna nunc id cursus. Amet volutpat consequat mauris nunc congue nisi vitae suscipit. Nunc pulvinar sapien et ligula. Tortor at risus viverra adipiscing at in tellus integer feugiat.
+                </p>
+            </div>
+            <div class="col-6 text-center">
+                <img src="https://via.placeholder.com/250?text=Agmuladlai" class="img-fluid">
+            </div>
+        </div>
+        <div class="d-flex justify-content-center align-items-center p-2">
+            <div class="col-6 text-center">
+                <img src="https://via.placeholder.com/250?text=Agmuladlai" class="img-fluid">
+            </div>
+            <div class="col-6">
+                <h5 class="text-center text-white">
+                    Why agmuladlai?
+                </h5>
+                <p class="text-end text-white pe-5">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus metus aliquam eleifend mi in. Augue interdum velit euismod in pellentesque. Et ligula ullamcorper malesuada proin libero. Tempor nec feugiat nisl pretium fusce id. Semper risus in hendrerit gravida rutrum quisque. Tortor at auctor urna nunc id cursus. Amet volutpat consequat mauris nunc congue nisi vitae suscipit. Nunc pulvinar sapien et ligula. Tortor at risus viverra adipiscing at in tellus integer feugiat.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Customer Review -->
+    <div class="container-fluid">
+        <div class="card my-3 shadow">
+            <div class="card-header row mx-0">
+                <h2 class="col-6 my-0 text-black-50">Customer Reviews</h2>
+                <a class="col-6 text-end align-self-center my-0" href="#">See all ></a>
+            </div>
+            <div class="card-body row mx-0">
+                <div class="col-2 fst-italic">
+                    <i class="fa fa-star" style="color: gold"></i>
+                    <i class="fa fa-star" style="color: gold"></i>
+                    <i class="fa fa-star" style="color: gold"></i>
+                    <i class="fa fa-star" style="color: gold"></i>
+                    <i class="fa fa-star" style="color: gold"></i>
+                    <br>"This product is great. Very recommended for stuff. 5/5"<br>- Customer<br>
+
+                </div>
+                <div class="col-2 fst-italic">
+                    <i class="fa fa-star" style="color: gold"></i>
+                    <i class="fa fa-star" style="color: gold"></i>
+                    <i class="fa fa-star" style="color: gold"></i>
+                    <i class="fa fa-star" style="color: gold"></i>
+                    <i class="fa fa-star" style="color: gold"></i>
+                    <br>"This product is great. Very recommended for stuff. XDXDXDXDXD 5/5"<br>- Customer<br>
+
+                </div>
+                <div class="col-2 fst-italic">
+                    <i class="fa fa-star" style="color: gold"></i>
+                    <i class="fa fa-star" style="color: gold"></i>
+                    <i class="fa fa-star" style="color: gold"></i>
+                    <i class="fa fa-star" style="color: gold"></i>
+                    <i class="fa fa-star" style="color: gold"></i>
+                    <br>"This product is great. Very recommended for stuff. I love it!!! Would share to friends! 5/5"<br>- Customer<br>
+
+                </div>
+                <div class="col-2 fst-italic">
+                    <i class="fa fa-star" style="color: gold"></i>
+                    <i class="fa fa-star" style="color: dimgrey"></i>
+                    <i class="fa fa-star" style="color: dimgrey"></i>
+                    <i class="fa fa-star" style="color: dimgrey"></i>
+                    <i class="fa fa-star" style="color: dimgrey"></i>
+                    <br>"I dislike this product very much!!!! 1/5"<br>- Customer<br>
+
+                </div>
+                <div class="col-2 fst-italic">
+                    <i class="fa fa-star" style="color: gold"></i>
+                    <i class="fa fa-star" style="color: gold"></i>
+                    <i class="fa fa-star" style="color: gold"></i>
+                    <i class="fa fa-star" style="color: gold"></i>
+                    <i class="fa fa-star" style="color: gold"></i>
+                    <br>"This product is great. Very recommended! I will buy again."<br>- Customer<br>
+
+                </div>
+                <div class="col-2 fst-italic">
+                    <i class="fa fa-star" style="color: gold"></i>
+                    <i class="fa fa-star" style="color: gold"></i>
+                    <i class="fa fa-star" style="color: gold"></i>
+                    <i class="fa fa-star" style="color: gold"></i>
+                    <i class="fa fa-star" style="color: dimgrey"></i>
+                    <br>"This product is great. Awful delivery time though."<br>- Customer<br>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer -->
+<footer class="bg-opacity-25 bg-white">
+    <div class="ps-5 container-fluid pt-3">
+        <div class="row">
+            <div class="col-2 text-center">
+                <h4>Payment methods:</h4>
+                <ul class="list-inline row">
+                    <li class="col-6">GCash icon here</li>
+                    <li class="col-6">Maya icon here</li>
+                    <li class="col-6">Other icon here</li>
+                    <li class="col-6">Other icon here</li>
+                </ul>
+            </div>
+            <div class="col-5 text-center">
+                <h4>About Agmuladlai:</h4>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#" class="text-decoration-none">About us</a>
+
+                    </li>
+                    <li>
+                        <a href="#" class="text-decoration-none">Privacy policy</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-5 text-center">
+                <h4>Follow us:</h4>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#" class="text-decoration-none">Facebook</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-decoration-none">Twitter</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-decoration-none">Instagram</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
